@@ -1,0 +1,9 @@
+.task-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.delete-btn {
+  margin-left: auto;
+}

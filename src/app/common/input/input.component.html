@@ -1,0 +1,7 @@
+<input
+  [ngClass]="type"
+  [ngStyle]="{ 'border-color': getColor() }"
+  type="text"
+  placeholder="{{ placeholder }}"
+  [(ngModel)]="inputValue"
+/>

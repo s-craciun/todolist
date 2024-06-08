@@ -1,0 +1,6 @@
+<div>
+  <app-tasks-item
+    *ngFor="let tasksItem of tasksList$ | async"
+    [tasksItem]="tasksItem"
+  ></app-tasks-item>
+</div>

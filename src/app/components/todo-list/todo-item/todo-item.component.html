@@ -1,0 +1,22 @@
+<div class="todo-item">
+  <h3>{{ todoItem.title }}</h3>
+  <form action="#" class="add-item-form">
+    <app-input
+      #newTaskInput
+      class="form-item"
+      type="underline"
+      placeholder="Enter task title..."
+    ></app-input>
+    <app-button
+      class="form-item"
+      [icon]="faPlus"
+      (click)="onClick(newTaskInput.inputValue)"
+    ></app-button>
+  </form>
+  <app-tasks-list todoId="{{ todoItem.id }}"></app-tasks-list>
+  <div class="btn-container">
+    <app-button text="All"></app-button>
+    <app-button text="Active" variant="warning"></app-button>
+    <app-button text="Completed" variant="success"></app-button>
+  </div>
+</div>

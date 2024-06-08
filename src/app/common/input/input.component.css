@@ -1,0 +1,28 @@
+.box {
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  height: 40px;
+}
+
+.underline {
+  border: none;
+  border-bottom: 1px solid var(--color-primary);
+  height: 30px;
+}
+
+.primary {
+  border-color: var(--color-primary);
+}
+
+.success {
+  border-color: var(--color-success);
+}
+
+.danger {
+  border-color: var(--color-danger);
+}
+
+.warning {
+  border-color: var(--color-warning);
+}

@@ -1,0 +1,75 @@
+{
+  "todolists": [
+    {
+      "id": "todo1",
+      "title": "What to buy",
+      "filter": "all"
+    },
+    {
+      "id": "todo2",
+      "title": "What to read",
+      "filter": "all"
+    },
+    {
+      "id": "todo3",
+      "title": "What to learn",
+      "filter": "all"
+    }
+  ],
+  "tasks": [
+    {
+      "todoId": "todo1",
+      "id": "title1",
+      "title": "Bread",
+      "status": true
+    },
+    {
+      "todoId": "todo1",
+      "id": "title2",
+      "title": "Milk",
+      "status": false
+    },
+    {
+      "todoId": "todo1",
+      "id": "title3",
+      "title": "Coffee",
+      "status": true
+    },
+    {
+      "todoId": "todo2",
+      "id": "title4",
+      "title": "Harry Potter",
+      "status": false
+    },
+    {
+      "todoId": "todo2",
+      "id": "title5",
+      "title": "The Old Curiosity Shop",
+      "status": false
+    },
+    {
+      "todoId": "todo2",
+      "id": "title6",
+      "title": "Little Prince",
+      "status": true
+    },
+    {
+      "todoId": "todo3",
+      "id": "title7",
+      "title": "HTML",
+      "status": true
+    },
+    {
+      "todoId": "todo3",
+      "id": "title8",
+      "title": "CSS",
+      "status": true
+    },
+    {
+      "todoId": "todo3",
+      "id": "title9",
+      "title": "JS",
+      "status": false
+    }
+  ]
+}

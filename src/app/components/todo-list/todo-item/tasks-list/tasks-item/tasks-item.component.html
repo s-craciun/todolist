@@ -1,0 +1,10 @@
+<div class="task-item">
+  <app-checkbox [id]="tasksItem.id" [checked]="tasksItem.status"></app-checkbox>
+  <span>{{ tasksItem.title }}</span>
+  <app-button
+    class="delete-btn"
+    variant="danger"
+    shape="circle"
+    [icon]="faTrash"
+  ></app-button>
+</div>

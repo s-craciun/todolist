@@ -1,0 +1,38 @@
+:host {
+  display: flex;
+}
+
+.checkbox {
+  display: inline-block;
+  margin-right: 10px;
+  align-self: center;
+}
+
+input {
+  display: none;
+}
+
+label {
+  cursor: pointer;
+  display: inline-block;
+  height: 15px;
+  width: 15px;
+  border-radius: 3px;
+  border: 2px solid var(--color-primary);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+fa-icon {
+  display: none;
+  color: #fff;
+}
+
+input:checked ~ label fa-icon {
+  display: inline;
+}
+
+input:checked ~ label {
+  background-color: var(--color-primary);
+}

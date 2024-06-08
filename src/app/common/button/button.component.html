@@ -1,0 +1,9 @@
+<button
+  class="btn"
+  [ngClass]="shape"
+  [ngStyle]="{ 'background-color': getColor() }"
+  type="button"
+>
+  <span *ngIf="text">{{ text }}</span>
+  <fa-icon *ngIf="icon" [icon]="icon" class="fa-lg"></fa-icon>
+</button>

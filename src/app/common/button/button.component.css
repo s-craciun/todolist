@@ -1,0 +1,32 @@
+.btn {
+  cursor: pointer;
+  height: 40px;
+  border: none;
+  color: #fff;
+}
+
+.circle {
+  width: 40px;
+  border-radius: 50%;
+}
+
+.square {
+  border-radius: 5px;
+  padding: 10px 10px;
+}
+
+.btn-primary {
+  background-color: var(--color-secondary);
+}
+
+.btn-success {
+  background-color: var(--color-secondary);
+}
+
+.btn-danger {
+  background-color: var(--color-secondary);
+}
+
+.btn-primary {
+  background-color: var(--color-secondary);
+}

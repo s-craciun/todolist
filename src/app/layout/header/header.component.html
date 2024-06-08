@@ -1,0 +1,18 @@
+<div class="header">
+  <form action="#" class="add-item-form">
+    <app-input
+      #newTodoInput
+      class="form-item"
+      variant="primary"
+      type="box"
+      placeholder="Enter todolist title..."
+    ></app-input>
+    <app-button
+      (click)="onClick(newTodoInput.inputValue)"
+      class="form-item"
+      shape="circle"
+      variant="success"
+      [icon]="faPlus"
+    ></app-button>
+  </form>
+</div>
